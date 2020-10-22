@@ -1,0 +1,27 @@
+.fee-voucher {
+    /* margin: auto; */
+    /* display: block; */
+    margin-top: 38px;
+    color: black;
+}
+.fee-voucher h1 {
+    font-size: 27px;
+    font-family: fantasy;
+}
+.fee-voucher h3 {
+    text-align: center;
+    font-size: 21px;
+    margin-top: 23px;
+    margin-bottom: 23px;
+}
+.fee-voucher .heading {
+    font-weight: 700;
+    /* margin-top: 4px; */
+    font-size: 19px;
+}
+.fee-voucher h4 {
+    font-size: 18px;
+    text-decoration: underline;
+    font-weight: 400;
+    padding: 4px;
+}

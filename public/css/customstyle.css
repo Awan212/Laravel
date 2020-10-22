@@ -1,0 +1,583 @@
+.landing-page {
+    
+    padding: 0px;
+}
+
+.school-name {
+    margin-left: 13rem;
+    font-size: 2rem;
+}
+.landing-page .heading {
+    font-size: 60px;
+    font-weight: 800;
+    margin: 6rem 0rem 0rem 3rem;;
+    text-transform: uppercase;
+    line-height: 4.6rem;
+    font-family: sans-serif;
+}
+.landing-page .read-more {
+    margin: 2rem 2rem 2rem 6rem;
+    color: #fafbff;
+    background-color: #182955;
+    border-radius: 30px;
+    width: 135px;
+    height: 45px;
+    font-size: 1rem;
+    font-weight: 800;
+    border: none;
+    outline: none;
+    line-height: 2rem;
+}
+
+.landing-page .intro-line {
+    margin: 0rem 0rem 2rem 4rem;
+    font-size: 17px;
+    justify-content: center;
+    text-align: justify;
+    line-height: 1.5rem;
+}
+.about-us {
+    margin: 3rem 0rem 6rem 0rem;
+}
+
+.about-us .heading {
+    margin: 6rem 0rem;
+    
+    font-size: 60px;
+}
+.about-us .about-professor {
+    border: shed;
+    margin: 5rem 9rem 0rem 0rem;
+}
+.about-us .professor-img {
+    margin: 0rem 0rem 0rem 10rem;
+    border: 10px solid #e6f1f1;
+}
+
+.about-us .about-professor h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+.about-us .about-professor p {
+    font-size: 20px;
+    font-family: cursive;
+}
+
+.contact {
+    margin: 3rem 0rem 6rem 0rem;
+}
+
+.contact .heading {
+    margin: 6rem 0rem;
+    
+    font-size: 60px;
+}
+
+.contact form input {
+    width: 100%;
+    display: inline-block;
+    height: 50px;
+    margin: 1rem;
+    box-shadow: 3px 3px 9px 1px #efdddd;
+    border-radius: 17px;
+    padding: 14px 14px 14px 14px;
+    outline: none;
+    font-size: 18px;
+    border: none;
+}
+
+.contact form textarea {
+    /* overflow: auto; */
+    resize: vertical;
+    height: 200px;
+    resize: none;
+    width: 100%;
+    padding FONT-WEIGHT: 100;
+    border: none;
+    outline: none;
+    width: 100%;
+    display: inline-block;
+    /* height: 50px; */
+    margin: 1rem;
+    box-shadow: 3px 3px 9px 1px #efdddd;
+    border-radius: 17px;
+    padding: 14px 14px 14px 14px;
+    outline: none;
+    font-size: 18px;
+    border: none;
+}
+
+
+.contact form button {
+    margin: auto;
+    display: block;
+    width: 150px;
+    height: 45px;
+    border-radius: 10px;
+    color: lightblue;
+    border: none;
+    background: linear-gradient(23deg, #3c28e2, #ef050500);
+    font-weight: 900;
+    font-size: 18px;
+    box-shadow: 0px 4px 4px 0px #9999e6;
+    outline: none;
+}
+.contact form button:hover {
+    background: linear-gradient(90deg, rgba(84,117,221,1) 5%, rgba(16,9,138,1) 31%, rgba(4,130,156,1) 94%);
+
+}
+
+.notification h3 {
+    font-size: 24px;
+    font-family: system-ui;
+    color: #161616;
+    
+    /* margin: auto; 
+    text-decoration: underline;*/
+}
+.profile-Img {
+    width: 57px;
+    height: 57px;
+    overflow: hidden;
+    border-radius: 100%;
+    border: 2px solid lightgray;
+    box-shadow: 0px 2px 7px grey;
+}
+
+.file-upload{
+	width:200px;
+	height: 200px;
+	border:1px solid #f0c0d0;
+	border-radius:100%;
+	overflow: hidden;
+}
+.teacher_status_working
+{
+	border:2px solid green;
+	background-color: green;
+	height: 15px;
+	width: 15px;
+	border-radius: 50%;
+	content:"";
+	float: left;
+}
+.teacher_status_leave
+{
+	border:2px solid gray;
+	background-color: gray;
+	height: 15px;
+	width: 15px;
+	border-radius: 50%;
+	content:"";
+	float: left;
+}
+.teacherPage-profileImg{
+
+	width: 250px;
+    height: 220px;
+    box-shadow: 0 2px 8px lightblue;
+}
+.teacherPage  .teacherName{
+	margin-bottom: .5rem;
+    font-family:"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-weight: 500;
+    line-height: 1.2;
+    color: black;
+}
+.teacherPage  .teacherQualification{
+	margin-bottom: .5rem;
+    font-family: "Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-weight: 500;
+    line-height: 1.2;
+	color:#000fff;
+	font-size: 1rem;
+}
+
+.teacherPage .teacherId{
+	font-size: 0.8rem;
+	margin-left: 15px;
+	margin-top: 0.4rem;
+    font-family:"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-weight: 500;
+    line-height: 1.2;
+    color: black;
+}
+
+.teacherPage .teacherCnic{
+	font-size: 0.8rem;
+	margin-top: 0.4rem;
+    font-family:"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-weight: 500;
+    line-height: 1.2;
+    color: gray;
+}
+.teacherPage nav{
+	margin-top: 2rem;
+	border-bottom: 1px solid #dee2e6;
+
+}
+.teacherPage nav .nav{
+    padding-left: 0;
+    margin-bottom: 0;
+	list-style: none;
+
+}
+.teacherPage nav .nav-link a{
+	color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.teacherPage .personal{
+	display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.teacherPage .personal label{
+	color: #303030;
+    font-weight: 800;
+    font-size: 1.5rem;
+
+}
+.teacherPage .personal p{
+	font-weight: 600;
+	font-size: 1.6rem;
+	color: #0062cc;
+}
+.teacherPage .printBtn{
+	border: none;
+    border-radius: 1.5rem;
+    width: 70%;
+    padding: 2%;
+    font-weight: 600;
+    color: #6c757d;
+	cursor: pointer;
+
+}
+.TeacherSalaryPage .TeacherProfile {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    overflow: hidden;
+    float: left;
+    margin-right: 0.8rem;
+}
+
+.TeacherSalaryPage h5{
+    margin-top: 0.1rem;
+    font-size: 1.2rem;
+}
+
+
+.TeacherAttandancePage .TeacherProfile {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    overflow: hidden;
+    float: left;
+    margin: auto 0.8rem ;
+}
+
+.classAttendance-Page label {
+    display: inline-block;
+    margin-bottom: .5rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.classAttendance-Page span.ClassInfo {
+    font-size: 2rem;
+    color: #212020;
+    margin: 0.8rem;
+    font-family: none;
+    border-bottom: 2px solid;
+    font-weight: 600;
+    text-shadow: 0px 1px 3px #3a3638;
+    text-transform: capitalize;
+    font-style: oblique;
+}
+
+.student-profile {
+    background-color: #fff;
+    border-radius: 40px;
+    margin: 2rem;
+    padding: 2rem;
+    border: 1px solid;
+    /* box-shadow: 1px 1px 15px 7px #ccc; */
+}
+
+.student-profile .student-profile-img {
+    width: 180px;
+    height: 180px;
+    overflow: hidden;
+    margin: auto;
+    border-radius: 100%;
+}
+
+.student-profile .student-profile-info h1 {
+    color: #191818;
+    font-size: 24px;
+    font-family: sans-serif;
+    margin-top: 1rem;
+}
+
+.student-profile button {
+    border-radius: 10px;
+    width: 121px;
+    background: #faf5fd;
+    border: 1px solid darkgray;
+    margin-top: 1rem;
+    outline: none;
+}
+.student-profile button:hover {
+
+    background: #e0dee2;
+    border: 1px solid rgb(192, 168, 168);
+}
+.student-profile .student-profile-info small {
+    font-size: 18px;
+    color: #9c9393;
+    line-height: 2rem;
+}
+
+.student-profile .student-profile-info p {
+    font-size: 17px;
+}
+.student-profile .student-profile-info address {
+    font-size: 18px;
+    line-height: 0rem;
+    font-family: monospace;
+    margin-top: 0rem;
+
+}
+.down-section {
+    border-top: 2px solid #dedede;
+}
+.student-profile-detail-left p {
+    font-size: 1.4rem;
+}
+
+.student-profile-detail-right span {
+    font-size: 18px;
+    color: #313131;
+    text-transform: capitalize;
+}
+
+.student-profile-detail-right .heading {
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.student-fee-report {
+    background-color: #fff;
+    border-radius: 40px;
+    box-shadow: 1px 0px 5px 0px #ccc;
+    margin: 2px 0px 14px 0px;
+    padding: 26px;
+}
+.student-fee-report #heading {
+    border-bottom: 2px solid #a9a2a2;
+    color: #ebebef;
+    font-size: 33px;
+    font-weight: 600;
+    background-color: #3e51bd;
+    padding: 0px 22px 0px 10px;
+    margin-bottom: 1px;
+}
+.student-fee-report .row .row{
+    margin:2px;
+}
+.student-fee-report .row  .row .col-md-6 {
+    padding: 2px;
+    border-bottom: 1px solid #a9a2a2;
+}
+.student-fee-report .heading {
+    font-size: 20px;
+    font-weight: 800;
+    color: #2b2a2a;
+    text-transform: capitalize;
+}
+
+.student-fee-report span {
+    font-size: 18px;
+    color: #615b5b;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.student-attendance-report {
+    background-color: #fff;
+    border-radius: 40px;
+    box-shadow: 1px 0px 5px 0px #ccc;
+    margin: 2px 0px 14px 0px;
+    padding: 26px;
+}
+.student-attendance-report #heading {
+    border-bottom: 2px solid #a9a2a2;
+    color: #ebebef;
+    font-size: 33px;
+    font-weight: 600;
+    background-color: #3e51bd;
+    padding: 0px 22px 0px 10px;
+    margin-bottom: 1px;
+
+}
+.student-attendance-report .row .row{
+    margin:2px;
+}
+.student-attendance-report .row  .row .col-md-6 {
+    padding: 2px;
+    border-bottom: 1px solid #a9a2a2;
+}
+.student-attendance-report .heading {
+    font-size: 20px;
+    font-weight: 800;
+    color: #2b2a2a;
+    text-transform: capitalize;
+}
+
+.student-attendance-report .row .col-md-6 span {
+    font-size: 18px;
+    color: #615b5b;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+
+
+
+
+.teacher-profile {
+    background-color: #fff;
+    border-radius: 40px;
+    margin: 2rem;
+    padding: 2rem;
+    border: 1px solid;
+    /* box-shadow: 1px 1px 15px 7px #ccc; */
+}
+
+.teacher-profile .teacher-profile-img {
+    width: 180px;
+    height: 180px;
+    overflow: hidden;
+    margin: auto;
+    border-radius: 100%;
+}
+
+.teacher-profile .teacher-profile-info h1 {
+    color: #191818;
+    font-size: 24px;
+    font-family: sans-serif;
+    margin-top: 1rem;
+}
+
+.teacher-profile button {
+    border-radius: 10px;
+    width: 121px;
+    background: #faf5fd;
+    border: 1px solid darkgray;
+    margin-top: 1rem;
+    outline: none;
+}
+.teacher-profile button:hover {
+
+    background: #e0dee2;
+    border: 1px solid rgb(192, 168, 168);
+}
+.teacher-profile .teacher-profile-info small {
+    font-size: 18px;
+    color: #9c9393;
+    line-height: 2rem;
+}
+
+.teacher-profile .teacher-profile-info p {
+    font-size: 17px;
+    margin: 0px;
+}
+.teacher-profile .teacher-profile-info address {
+    font-size: 18px;
+    line-height: 0rem;
+    font-family: monospace;
+    margin-top: 1rem;
+
+}
+.down-section {
+    border-top: 2px solid #dedede;
+}
+.teacher-profile-detail-left p {
+    font-size: 1.4rem;
+}
+
+.teacher-profile-detail-right span {
+    font-size: 18px;
+    color: #313131;
+    text-transform: capitalize;
+}
+
+.teacher-profile-detail-right .heading {
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+
+
+.teacher-attendance-report {
+    background-color: #fff;
+    border-radius: 40px;
+    box-shadow: 1px 0px 5px 0px #ccc;
+    margin: 2px 0px 14px 0px;
+    padding: 26px;
+}
+.teacher-attendance-report #heading {
+    border-bottom: 2px solid #a9a2a2;
+    color: #ebebef;
+    font-size: 33px;
+    font-weight: 600;
+    background-color: #3e51bd;
+    padding: 0px 22px 0px 10px;
+    margin-bottom: 1px;
+
+}
+.teacher-attendance-report .row .row{
+    margin:2px;
+}
+.teacher-attendance-report .row  .row .col-md-6 {
+    padding: 2px;
+    border-bottom: 1px solid #a9a2a2;
+}
+.teacher-attendance-report .heading {
+    font-size: 20px;
+    font-weight: 800;
+    color: #2b2a2a;
+    text-transform: capitalize;
+}
+
+.teacher-attendance-report .row .col-md-6 span {
+    font-size: 18px;
+    color: #615b5b;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.classAttendance-Page .ClassInfo {
+    background-color: #ffff;
+    margin: 8px;
+    padding: 14px;
+    border-radius: 14px;
+    border: 2px solid lightgray;
+}
+.classAttendance-Page .ClassInfo label {
+    /* display: inline-block; */
+    font-size: 24px;
+    font-weight: 700;
+    color: #3f3f40;
+}
+.classAttendance-Page .ClassInfo span {
+    font-size: 18px;
+    color: #060505;
+    margin: 3rem;
+}
